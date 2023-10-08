@@ -39,7 +39,7 @@ Here's how you can stay informed and be among the first to access MediCareHub wh
 
 1. **Watch our GitHub Repository**: Keep an eye on our GitHub repository to follow the progress of the development. Click the badge below to visit our GitHub repository:
 
-   [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/YourGitHubUsername/MediCareHub)
+   [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/PREMRAJESH/MediCareHub.git)
 
    By watching the repository, you'll receive updates on new features, bug fixes, and the latest releases.
 
@@ -70,7 +70,7 @@ Thank you for choosing MediCareHub as your trusted medical partner. We are commi
 
 Find our project on GitHub and get involved in the development of this fantastic medical platform. Here are the badges for our GitHub repository:
 
-- [![Django](https://img.shields.io/badge/Django-3.2.0-blue.svg)](https://github.com/YourGitHubUsername/MediCareHub)
-- [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0.0-purple.svg)](https://github.com/YourGitHubUsername/MediCareHub)
+- [![Django](https://img.shields.io/badge/Django-3.2.0-blue.svg)](https://github.com/PREMRAJESH/MediCareHub.git)
+- [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0.0-purple.svg)](https://github.com/PREMRAJESH/MediCareHub.git)
 
 ---
