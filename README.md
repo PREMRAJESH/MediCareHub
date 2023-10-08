@@ -53,7 +53,7 @@ We appreciate your patience as we work diligently to bring you a reliable and us
 
 ---
 
-Follow us on [Twitter](https://twitter.com/MediCareHub) | [Facebook](https://facebook.com/MediCareHub) | [LinkedIn](https://linkedin.com/company/MediCareHub)
+Follow us on   [Facebook](https://www.facebook.com/profile.php?id=100095109463638&mibextid=ZbWKwL) | [LinkedIn](https://www.linkedin.com/in/prem-sargara-4a802723a/)
 
 
 For administrators:
@@ -70,7 +70,7 @@ Thank you for choosing MediCareHub as your trusted medical partner. We are commi
 
 Find our project on GitHub and get involved in the development of this fantastic medical platform. Here are the badges for our GitHub repository:
 
-- [![Django](https://img.shields.io/badge/Django-3.2.0-blue.svg)](https://github.com/PREMRAJESH/MediCareHub)
+- [![Django](https://img.shields.io/badge/Django-3.2.0-blue.svg)](https://github.com/django/django)
 - [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0.0-purple.svg)](https://github.com/twbs/bootstrap)
 
 ---
