@@ -31,14 +31,30 @@ We've designed MediCareHub with simplicity in mind for easy navigation and under
 - **Django**: A powerful Python web framework for building robust web applications.
 - **Bootstrap**: A front-end framework that ensures a responsive and visually appealing design.
 
-## Get Started
+## Start Using This Website
 
-To start using MediCareHub:
+Thank you for your interest in MediCareHub! While our website is currently under development and not yet hosted, we are actively working to bring you the best possible medical platform.
 
-1. Visit our website at [MediCareHub.com](https://www.medicarehub.com).
-2. Sign up for an account if you are a patient.
-3. Log in to your account.
-4. Explore our services, book appointments, or shop for pharmaceutical products.
+Here's how you can stay informed and be among the first to access MediCareHub when it goes live:
+
+1. **Watch our GitHub Repository**: Keep an eye on our GitHub repository to follow the progress of the development. Click the badge below to visit our GitHub repository:
+
+   [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/YourGitHubUsername/MediCareHub)
+
+   By watching the repository, you'll receive updates on new features, bug fixes, and the latest releases.
+
+2. **Subscribe to Our Newsletter**: Once our website is ready for launch, we'll be sending out newsletters to keep you informed. Subscribe to our newsletter to receive updates directly in your inbox.
+
+3. **Follow Us on Social Media**: Stay connected with us on social media platforms like Twitter, Facebook, and LinkedIn. We'll be sharing exciting updates and announcements there.
+
+4. **Join Our Community**: We welcome contributors, testers, and enthusiasts to join our community. Contribute to the development, report bugs, or simply provide feedback. Together, we can make MediCareHub an even better platform.
+
+We appreciate your patience as we work diligently to bring you a reliable and user-friendly medical website. We look forward to serving your healthcare needs in the near future!
+
+---
+
+Follow us on [Twitter](https://twitter.com/MediCareHub) | [Facebook](https://facebook.com/MediCareHub) | [LinkedIn](https://linkedin.com/company/MediCareHub)
+
 
 For administrators:
 
