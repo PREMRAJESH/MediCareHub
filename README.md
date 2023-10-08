@@ -70,7 +70,7 @@ Thank you for choosing MediCareHub as your trusted medical partner. We are commi
 
 Find our project on GitHub and get involved in the development of this fantastic medical platform. Here are the badges for our GitHub repository:
 
-- [![Django](https://img.shields.io/badge/Django-3.2.0-blue.svg)](https://github.com/PREMRAJESH/MediCareHub.git)
-- [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0.0-purple.svg)](https://github.com/PREMRAJESH/MediCareHub.git)
+- [![Django](https://img.shields.io/badge/Django-3.2.0-blue.svg)](https://github.com/PREMRAJESH/MediCareHub)
+- [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0.0-purple.svg)](https://github.com/twbs/bootstrap)
 
 ---
