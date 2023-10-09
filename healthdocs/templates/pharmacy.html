@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block title %}Pharmacy{% endblock title %}
+{% block body %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+<div class="container mt-5">
+  <div class="pharmacy-container">
+      <h2>Medicines Available</h2>
+      <hr>
+      <div class="medicine-cards">
+        <div class="medicine-card">
+          <h3>Aspirin</h3>
+          <p>Used to treat pain, inflammation, and fever.</p>
+          <p>Price: $3.49</p>
+          <form method="post" action="/pharmacy">
+            {% csrf_token %}
+              <input type="hidden" name="medicine" value="Aspirin">
+              <input type="hidden" name="price" value="3.49">
+              <button type="submit" name="buy" class="btn btn-success">Buy</button>
+              <button type="submit" name="addToCart" class="btn bg-transparent disabled">Add to Cart</button>
+          </form>
+      </div><hr>
+      <div class="medicine-card">
+       
+        <h3>Simvastatin</h3>
+        <p>Cholesterol-lowering medication.</p>
+        <p>Price: $12.99</p>
+        <form method="post" action="/buy"> 
+          {% csrf_token %}
+            <input type="hidden" name="medicine" value="Simvastatin">
+            <input type="hidden" name="price" value="12.99">
+            <button type="submit" name="buy" class="btn btn-success">Buy</button>
+            <button type="submit" name="addToCart" class="btn bg-transparent disabled">Add to Cart</button>
+        </form>
+    </div><hr>
+    <div class="medicine-card">
+      
+      <h3>Albuterol</h3>
+      <p>Bronchodilator for asthma and COPD.</p>
+      <p>Price: $14.99</p>
+      <form method="post" action="/buy">
+        {% csrf_token %}
+          <input type="hidden" name="medicine" value="Albuterol">
+          <input type="hidden" name="price" value="14.99">
+          <button type="submit" name="buy" class="btn btn-success">Buy</button>
+          <button type="submit" name="addToCart" class="btn bg-transparent disabled">Add to Cart</button>
+      </form>
+  </div><hr>
+  <div class="medicine-card">
+    <h3>Metformin</h3>
+    <p>Oral diabetes medication.</p>
+    <p>Price: $6.49</p>
+    <form method="post" action="/buy">
+        {% csrf_token %}
+        <input type="hidden" name="medicine" value="Metformin">
+        <input type="hidden" name="price" value="6.49">
+        <button type="submit" name="buy" class="btn btn-success">Buy</button>
+        <button type="submit" name="addToCart" class="btn bg-transparent disabled">Add to Cart</button>
+    </form>
+</div><hr>
+<div class="medicine-card">
+  <h3>Loratadine</h3>
+  <p>Antihistamine used for allergies and hay fever.</p>
+  <p>Price: $8.99</p>
+  <form method="post" action="/buy">
+      {% csrf_token %}
+      <input type="hidden" name="medicine" value="Loratadine">
+      <input type="hidden" name="price" value="8.99">
+      <button type="submit" name="buy" class="btn btn-success">Buy</button>
+      <button type="submit" name="addToCart" class="btn bg-transparent disabled">Add to Cart</button>
+  </form><hr>
+</div>
+<div class="medicine-card">
+  <h3>Ibuprofen</h3>
+  <p>Nonsteroidal anti-inflammatory drug (NSAID) for pain relief.</p>
+  <p>Price: $6.79</p>
+  <form method="post" action="/buy">
+      {% csrf_token %}
+      <input type="hidden" name="medicine" value="Ibuprofen">
+      <input type="hidden" name="price" value="6.79">
+      <button type="submit" name="buy" class="btn btn-success">Buy</button>
+      <button type="submit" name="addToCart" class="btn bg-transparent disabled">Add to Cart</button>
+  </form>
+</div><hr>
+<div class="medicine-card">
+  <h3>Omeprazole</h3>
+  <p>Proton pump inhibitor for heartburn and acid reflux.</p>
+  <p>Price: $9.49</p>
+  <form method="post" action="/buy">
+      {% csrf_token %}
+      <input type="hidden" name="medicine" value="Omeprazole">
+      <input type="hidden" name="price" value="9.49">
+      <button type="submit" name="buy" class="btn btn-success">Buy</button>
+      <button type="submit" name="addToCart" class="btn bg-transparent disabled">Add to Cart</button>
+  </form>
+</div><hr>
+</div>
+</div>
+</div>
+
+{% endblock body %}

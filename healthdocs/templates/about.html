@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %}
+{% block body %}
+<!-- About Section -->
+<section id="about" class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <span class="text-success">
+                <h2>About Us</h2>
+            </span>
+            <p>We are a leading medical center dedicated to providing the highest quality healthcare services. With a team of experienced professionals and state-of-the-art facilities, we ensure your well-being is in safe hands.</p>
+            <p>Our mission is to deliver compassionate care, promote overall wellness, and make a positive impact on the health of our community.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="static/about.jpg" alt="Medical Center" class="img-fluid rounded-circle">
+        </div>
+    </div>
+</section>
+
+<!-- Appointments Section -->
+<section id="appointments" class="bg-light py-5">
+    <div class="container text-center">
+        <h2>Book an Appointment</h2>
+        <p>Ready to take control of your health? Schedule an appointment with us today.</p>
+        <a href="/appointment" class="btn btn-success">Book Now</a>
+    </div>
+    
+</section> 
+
+{% endblock body %}

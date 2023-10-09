@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+{% block title %}Appointment{% endblock title %}
+{% block body %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+<style>
+    body {
+     font-size: 14px;
+     margin: 0;
+     padding: 0;
+     {% comment %} background-color: #21D4FD;
+     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); {% endcomment %}
+    }
+    .appointment {
+     box-shadow: 0.5px 0.5px 5px;
+     border-radius: 20px;
+     margin-top: 50px;
+     padding: 20px;
+     background-color:#fff;
+     max-width: 800px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+   
+    form label {
+     font-weight: bold;
+    }
+   
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="date"],
+    form input[type="tel"],
+    form input[type="time"],
+    form select {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 15px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+    }
+   
+    form .form-group {
+     margin-bottom: 20px;
+    }
+   
+    form .btn-primary {
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+    }
+   </style>
+<div class="container mt-6 appointment">
+    <h1 class="text-center mb-4"><img class="img-fluid"src="static/logo.png" alt=""height="40"width="40"> MediCareHub</h1><hr>
+    <form action="/appointment" method="post">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" class="form-control" id="dob" name="dob" required>
+        </div>
+
+        <div class="form-group">
+            <label>Gender:</label>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="male" name="gender" value="male" required>
+                <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="female" name="gender" value="female">
+                <label class="form-check-label" for="female">Female</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" class="form-control" id="address" name="address" required>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" class="form-control" id="city" name="city" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="pincode">Pincode:</label>
+                    <input type="text" class="form-control" id="pincode" name="pincode" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date">Preferred Date:</label>
+            <input type="date" class="form-control" id="pdate" name="pdate" required>
+        </div>
+
+        <div class="form-group">
+            <label for="time">Preferred Time:</label>
+            <input type="time" class="form-control" id="ptime" name="ptime" required>
+        </div>
+
+        <div class="form-group">
+            <label for="treatment">Treatment Type:</label>
+            <select class="form-control" id="treatment" name="treatment" required>
+                <option value="general">General Checkup</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="dermatology">Dermatology</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="doctorName">Appointed Doctor:</label>
+            <select class="form-control" id="doctorName" name="doctorName" required>
+                <option value="Dr. Das">Dr. Das</option>
+                <option value="Dr. Patel">Dr. Patel</option>
+                <option value="DR. M shah">DR. M shah</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success">Book Appointment</button>
+    </form>
+</div>
+{% endblock body %}
+

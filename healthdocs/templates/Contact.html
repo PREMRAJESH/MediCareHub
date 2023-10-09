@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% block title %}Contact Us{% endblock title %}
+{% block body %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+<style>
+    /* Add custom CSS for animations */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    .animated {
+        animation: fadeIn 1s ease-in-out;
+    }
+</style>
+<section class="pb-5 pt-0">
+    <div class="container-fluid p-0 pb-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.6939560533747!2d74.24461657532824!3d22.85080962271622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39611db67781f55f%3A0x13ee8f457cf28662!2sMedicare%20Multispeciality%20Hospital%20Dahod!5e0!3m2!1sen!2sin!4v1696668925965!5m2!1sen!2sin" width="1600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="container">
+        <div class="row text-center justify-content-center pt-5">
+            <div class="col-12 col-md-7">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center pt-4">
+            <div class="col-12 col-md-7">
+                <form method="post" action="/contact">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="name" id="name"placeholder="Your name">
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col">
+                            <input type="email"id="email" class="form-control" name="email"placeholder="Your Email">
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col">
+                            <textarea class="form-control" id="desc" name="desc" rows="3" placeholder="Your feedback"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+  
+</section>
+{% endblock body %}

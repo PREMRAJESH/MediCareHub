@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block title %}Medicine list{% endblock title %}
+{% block body %}
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Medicines Available:</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <h4>Medicine</h4>
+            <p>Description of Medicine 1.</p>
+            <form action="/buy" method="POST">
+              {% csrf_token %}
+              <div class="input-group mb-3">
+                <input type="number" class="form-control quantity" name="quantity" id="quantity1" value="0" min="0">
+                <div class="input-group-append">
+                  <span class="input-group-text">Quantity</span>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-success" name="buy" id="buy1">Buy</button>
+            </form>
+          </li>
+          <!-- Add more medicine items here -->
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2>Total Cost:</h2>
+        <p id="totalCost">$0.00</p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // JavaScript code to calculate total cost
+    const quantityInputs = document.querySelectorAll('.quantity');
+    const totalCostElement = document.getElementById('totalCost');
+  
+    // Function to update total cost
+    function updateTotalCost() {
+      let totalCost = 0;
+      quantityInputs.forEach((input, index) => {
+        const quantity = parseInt(input.value);
+        // Add your logic to calculate the cost per item based on quantity here
+        // For example, you can have an array of prices for each medicine item
+        // and use it to calculate the cost.
+        const price = 10; // Replace with the actual price for the item
+        totalCost += quantity * price;
+      });
+  
+      // Update the total cost element with the calculated value
+      totalCostElement.textContent = `$${totalCost.toFixed(2)}`;
+    }
+  
+    // Add event listeners to quantity inputs to recalculate total cost
+    quantityInputs.forEach((input) => {
+      input.addEventListener('input', updateTotalCost);
+    });
+  
+    // Initial calculation
+    updateTotalCost();
+  </script>
+  
+{% endblock body %}
