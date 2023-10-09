@@ -61,18 +61,12 @@ To get started with MediCareHub on your local machine, follow these steps:
 
 - Access the admin panel at `http://localhost:8000/admin/` and start managing your medical services.
 
-## Contributing
-
-Contributions are welcome! If you would like to contribute to the development of MediCareHub, please follow our [contributing guidelines](CONTRIBUTING.md).
-
 ## Project Status
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yourusername/MediCareHub/CI)](https://github.com/PREMRAJESH/MediCareHub/actions)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/MediCareHub)](https://github.com/PREMRAJESH/MediCareHub/issues)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/MediCareHub)](https://github.com/PREMRAJESH/MediCareHub/stargazers)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/PREMRAJESH/MediCareHub/CI)](https://github.com/PREMRAJESH/MediCareHub/actions)
+[![GitHub issues](https://img.shields.io/github/issues/PREMRAJESH/MediCareHub)](https://github.com/PREMRAJESH/MediCareHub/issues)
+[![GitHub stars](https://img.shields.io/github/stars/PREMRAJESH/MediCareHub)](https://github.com/PREMRAJESH/MediCareHub/stargazers)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
