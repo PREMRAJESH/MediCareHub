@@ -67,6 +67,3 @@ To get started with MediCareHub on your local machine, follow these steps:
 [![GitHub issues](https://img.shields.io/github/issues/PREMRAJESH/MediCareHub)](https://github.com/PREMRAJESH/MediCareHub/issues)
 [![GitHub stars](https://img.shields.io/github/stars/PREMRAJESH/MediCareHub)](https://github.com/PREMRAJESH/MediCareHub/stargazers)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
