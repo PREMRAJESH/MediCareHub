@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #21D4FD;
+      background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  }
+  
+  .register-container {
+    position: absolute;
+    top: 20%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 2rem;
+    padding-right: 3.2rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .register-container img {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    translate: transform(-50%, -50%);
+  }
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .register-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #21D4FD;
+      background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity:0.8;
+    transition:opacity 0.3s;
+  }
+  .register-container button:hover {
+    background-color: #45a049;
+    opacity: 1;
+  }
+  .btn{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    margin-left:20px;
+    margin-bottom:50px;
+  }
+  .btn button{
+    width:70px;
+    background-color:white;
+    font-size:2.2rem;
+    border-radius:45%;
+    border:none;
+    opacity: 0.8;
+    transition:all 0.3s linear;
+    color:linear-gradient(19deg, blue 0%, #B721FF 100%);
+  }
+  .btn button:hover{
+    transform: translate3d(-10px, 0px, 0);
+  }
+  

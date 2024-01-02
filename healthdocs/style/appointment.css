@@ -1,0 +1,46 @@
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+   }
+   .container {
+    box-shadow: 0.5px 0.5px 5px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color:#fff;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  
+   form label {
+    font-weight: bold;
+   }
+  
+   form input[type="text"],
+   form input[type="email"],
+   form input[type="date"],
+   form input[type="tel"],
+   form input[type="time"],
+   form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+  
+   form .form-group {
+    margin-bottom: 20px;
+   }
+  
+   form .btn-primary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+  
