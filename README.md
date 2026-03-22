@@ -1,7 +1,6 @@
 # MediCareHub - Your Medical Care Solution
 
-MediCareHub is a web application designed to provide medical services efficiently. It is built using Django and Bootstrap, offering essential features like booking appointments, an admin panel for managing the platform, and a pharmacy section for easy access to medications.
-
+MediCareHub is a web application designed to provide medical services efficiently. It is built using Django and Bootstrap, offering essential features like booking appointments, an admin panel for managing the platform, and a pharmacy section for easy access to medications
 
 ## Features
 
